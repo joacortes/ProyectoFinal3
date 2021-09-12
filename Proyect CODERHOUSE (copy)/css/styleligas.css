@@ -1,0 +1,81 @@
+main .contenedorTablas{
+    display: flex;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+main .contenidoTablas h2{
+    text-align: center;
+    margin: 1em;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    color: #00ff00;
+}
+
+main .contenidoTablas{
+    background-color: #333333;
+    border-radius: 0.5em;
+    padding: 1em;
+    color: #ffffff;
+    box-shadow: 0 0 0.5em #33333388;
+    width: 100%;
+}
+
+main .table-responsive{
+    display: flex;
+    justify-content: center;
+}
+
+main table{
+    border-collapse: collapse;
+    border: 3px solid #ffffff;
+    cursor: default;
+}
+
+
+main table tr td,
+main table tr th{
+    border: 3px solid #ffffff;
+    padding: 1em;
+}
+
+main table tr th{
+    background-color: #aaaaaa;
+    color: #333333;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+main table tr td{
+    font-size: 0.8em;
+    text-align: justify;
+}
+
+main table tr:hover{
+    background-color: #00ff00;
+    color: #333333;
+}
+
+main form{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+main form #submit{
+    width: 3.5em;
+    border-radius: 0.2em;
+    border: 1px solid white;
+    color: #333333;
+    background-color: #00ff00;
+    margin: 0.5em 0;
+    cursor: pointer;
+}
+
+main form #submit:hover{
+    background-color: #ffffff;
+    border: 1px solid #00ff00;
+    color: #333333;
+}

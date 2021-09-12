@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/styleligas.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="menulist">
+                <li class="menulist__item"><a href="../index.html" class="menulist__link">Inicio</a></li>
+                <li class="menulist__item"><a href="ligas.html" class="menulist__link">Ligas</a></li>
+                <li class="menulist__item"><a href="palmares.html" class="menulist__link">Palmares</a></li>
+                <li class="menulist__item"><a href="tablahistorica.html" class="menulist__link">Tabla Historica</a></li>
+                <li class="menulist__item"><a href="contacto.html" class="menulist__link">Contacto</a></li>
+            </ul>
+            
+            <a class="logo" href="#">
+                <img class="logo__img" src="../img/football.svg" alt="logo">
+                <h1>wikiFootball</h1>
+            </a>
+        </nav>
+    </header>
+    <main>
+        <section class="contenedorTablas">
+            <article class="contenidoTablas">
+                <h2>Contacto</h2>
+                <form>
+                    <label for="Nombre">Nombre</label>
+                    <input type="text" name="nombre" id="Nombre" placeholder="Nombre">
+                    <label for="Apellido">Apellido</label>
+                    <input type="text" name="apellido" id="Apellido" placeholder="Apellido">
+                    <label for="Email">Email</label>
+                    <input type="email" name="email" id="Email" placeholder="Email">
+                    <label for="Pais">Pais</label>
+                    <select name="selectPais" id="Pais">
+                        <option value="ARG">Argentina</option>
+                        <option value="BR">Brasil</option>
+                        <option value="VEN">Venezuela</option>
+                        <option value="CHI">Chile</option>
+                        <option value="PAR">Paraguay</option>
+                        <option value="PER">Peru</option>
+                        <option value="URU">Uruguay</option>
+                        <option value="BOL">Bolivia</option>
+                    </select>
+                    <label for="Mensaje">Mensaje</label>
+                    <textarea name="mensaje" id="Mensaje" cols="30" rows="10"></textarea>
+                    <input type="submit" name="submit" id="submit" value="Enviar">
+                </form>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <div class="redes">
+            <a href="https://instagram.com">
+                <img src="../img/instagram.svg" alt="instagram" class="redes__img">
+            </a>
+            <a href="https://facebook.com">
+                <img src="../img/facebook.svg" alt="facebook" class="redes__img">
+            </a>
+        </div>
+    </footer>
+    <div class="footer__barra">
+        <h3>&copy; Copyright - Joaquín Cortés</h3>
+    </div>
+</body>
+</html>
